@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css" />
+
+	<script src="jquery.js"></script>
+	<script src="masonry.js"></script>
+
+	<script>
+
+		$(document).ready(function ()
+		{	
+			/*
+			for (var i = 0; i < 15; i++)
+			{	
+				var width  = Math.round(Math.random() * (400 - 300) + 300),
+					height = Math.round(Math.random() * (500 - 200) + 200);
+
+				$('#container').append('<div><img src="http://lorempixel.com/'+height+'/'+width+'/?'+i+'"></div>');
+			}
+			*/
+
+			$(window).load(function ()
+			{	
+				$('[data-portfolio]').imageGrid();
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="container" data-portfolio>
+		<div>
+			<img src="http://lorempixel.com/311/328/?0" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/263/337/?1" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/478/371/?2" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/460/336/?3" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/319/360/?4" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/237/322/?5" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/248/327/?6" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/233/371/?7" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/475/309/?8" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/404/303/?9" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/301/390/?10" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/386/366/?11" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/269/319/?12" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/1216/1353/?13" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/1260/1115/?14" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/475/309/?8" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/404/303/?9" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/301/390/?10" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/386/366/?11" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/269/319/?12" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/1216/1353/?13" />
+		</div>
+		<div>
+			<img src="http://lorempixel.com/1260/1115/?14" />
+		</div>			
+	</div>
+</body>
+
+</html>
